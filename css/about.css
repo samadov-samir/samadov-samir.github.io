@@ -1,0 +1,71 @@
+.about-container{
+    background: #212529;
+    height: 100vh;
+    padding-top: 60px;
+}
+.about-container h1{
+    padding-top: 15px;
+    color: white;
+    text-align: center;
+    padding-bottom: 17px;
+}
+.my-info{
+    text-align: center;
+    color: white;
+}
+.my-info p {
+    padding: 25px 30px;
+    text-align: center;
+    font-size: 22px;
+}
+.my-info p span {
+    color: #20C997;
+}
+.my-info b {
+    font-size: 20px;
+    padding-left: 30px;
+    padding-bottom: 12px;
+    display: inline-block;
+}
+.line {
+    width: 10%;
+    margin:0 auto;
+    height: 4px;
+    background: #20C997;
+}
+.my-info span {
+    font-size: 20px;
+    margin-left: 10px;
+}
+@media only screen and (max-width: 360px) {
+    .about-container{
+        height: 135vh!important;
+    }
+    .navbar-head{
+        margin-bottom: 10px;
+    }
+}
+@media only screen and (max-width: 320px) {
+    .about-container{
+        height: 160vh!important;
+    }
+    .navbar-head{
+        margin-bottom: 15px;
+    }
+}
+@media only screen and (max-width: 376px) {
+    .about-container{
+        height: 150vh;
+    }
+    .navbar-head{
+        margin-bottom: 40px;
+    }
+}
+@media only screen and (max-width: 320px) {
+    .about-container{
+        height: 150vh;
+    }
+    .navbar-head{
+        margin-bottom: 40px;
+    }
+}

@@ -1,0 +1,380 @@
+@import url('https://fonts.googleapis.com/css2?family=Yaldevi:wght@200;300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Yaldevi', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.d-flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+.col-1 {
+    width: calc((100% / 12) * 1);
+}
+
+.col-2 {
+    width: calc((100% / 12) * 2);
+}
+
+.col-3 {
+    width: calc((100% / 12) * 3);
+}
+
+.col-4 {
+    width: calc((100% / 12) * 4);
+}
+
+.col-5 {
+    width: calc((100% / 12) * 5);
+}
+
+.col-6 {
+    width: calc((100% / 12) * 6);
+}
+
+.col-7 {
+    width: calc((100% / 12) * 7);
+}
+
+.col-8 {
+    width: calc((100% / 12) * 8);
+}
+
+.col-9 {
+    width: calc((100% / 12) * 9);
+}
+
+.col-10 {
+    width: calc((100% / 12) * 10);
+}
+
+.col-11 {
+    width: calc((100% / 12) * 11);
+}
+
+.col-12 {
+    width: calc((100% / 12) * 12);
+}
+
+.navbar-container {
+    background: #111418;
+    height: 100vh;
+}
+
+.navbar-container .navbar-img {
+    padding: 80px 0;
+    height: 50%;
+}
+
+.navbar-container .navbar-img img {
+    width: 60%;
+    border-radius: 110px;
+    border: 11px solid #343A40;
+    margin: 0 auto;
+    display: block;
+}
+
+.navbar-container .navbar-img h3 {
+    text-align: center;
+    color: white;
+    padding-top: 21px;
+}
+
+.navbar-container .navbar-content {
+    text-align: center;
+}
+
+.navbar-container .navbar-content ul {
+    margin-top: 35px;
+}
+
+
+.navbar-container .navbar-content ul li {
+    padding-bottom: 20px;
+}
+
+.navbar-container .navbar-content ul li a {
+    color: white;
+    padding-bottom: 20px;
+    font-size: 20px;
+}
+
+.navbar-container .navbar-content ul li a:hover {
+    color: #1EB287;
+    transition: all 0.6s ease;
+}
+
+.navbar-container .navbar-content ul li a:active {
+    color: #1EB287;
+}
+
+.navbar-container .navbar-content .social {
+    color: teal;
+    padding-top: 40px;
+    padding-right: 20px;
+    font-size: 26px;
+}
+
+.navbar-container .navbar-content .social a {
+    padding-right: 20px;
+}
+
+.navbar-container .navbar-content .social a i {
+    color: teal;
+}
+
+.navbar-container .navbar-content .social a i:hover {
+    color: tomato;
+    transition: all 0.6s ease;
+}
+
+.navbar-img-content {
+    background-image: url(../img//background.jpg);
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    opacity: 0.9;
+}
+
+.navbar-img-content .navbar-cnt {
+    text-align: center;
+    position: relative;
+    top: 35%;
+}
+
+.navbar-img-content .navbar-cnt h1 {
+    color: #000000;
+    font-size: 43px;
+}
+
+.navbar-img-content .navbar-cnt p {
+    color: #000000;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.navbar-img-content .button .btn {
+    margin-top: 20px;
+}
+
+.navbar-img-content .button .btn {
+    padding: 14px 19px;
+    border-radius: 37px;
+    background: black;
+    color: white;
+    border: 4px solid teal;
+    font-size: 20px;
+}
+
+.navbar-img-content .button .btn:hover {
+    background: teal;
+    transition: all 0.6s ease;
+    cursor: pointer;
+}
+
+.navbar-head {
+    height: 100px;
+    display: none;
+    padding-left: 60px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.navbar-head ul li {
+    float: left;
+}
+
+.navbar-head ul li {
+    color: white;
+    font-size: 20px;
+    padding: 38px;
+}
+
+.navbar-head ul li a {
+    color: white;
+    font-size: 22px;
+}
+
+.navbar-head ul li a:hover {
+    color: #1EB287;
+    transition: all 0.6s ease;
+}
+.social {
+    color: teal;
+    padding-top: 50px;
+    padding-right: 20px;
+    font-size: 24px;
+    margin-left: 35px;
+    text-align: center;
+    margin-top: 250px;
+}
+.social a {
+    padding-right: 20px;
+}
+.social a i {
+    color: yellow;
+}
+.social a i:hover {
+    color: tomato;
+    transition: all 0.6s ease;
+}
+.navbar-social {
+    padding-top: 10px;
+    padding-right: 15px;
+    font-size: 24px;
+    padding-left: 20px;
+    text-align: center;
+}
+.navbar-cnt{
+    padding-top: 5px;
+}
+.navbar-social a {
+    padding-right: 20px;
+}
+.navbar-social a i {
+    color: teal;
+}
+.navbar-social a i:hover {
+    color: tomato;
+    transition: all 0.6s ease;
+}
+@media only screen and (max-width: 800px) {
+    .none {
+        display: none;
+    }
+    .social{
+        display: block;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .none {
+        display: none;
+    }
+    .none2{
+        display: none;
+    }
+    .col-9 {
+        width: 100%;
+    }
+    .col-10{
+        width: 100%;
+    }
+    .navbar-head {
+        display: block;
+        height: 50px;
+        font-size: 15px;
+    }
+
+    .navbar-img-content .navbar-cnt {
+        text-align: center;
+        position: relative;
+        top: 25%;
+    }
+}
+
+@media only screen and (max-width: 695px) {
+    .navbar-head ul li {
+        padding: 10px;
+    }
+}
+@media only screen and (max-width: 415px) {
+    .navbar-head ul li {
+        padding: 7px;
+    }
+    .navbar-head ul li a {
+        color: white;
+        font-size: 16px;
+    }
+    .navbar-head {
+        height: 40px;
+    }
+}
+@media only screen and (max-width: 788px) {
+    .navbar-head ul li {
+        padding: 7px;
+    }
+    .navbar-head ul li a {
+        color: white;
+        font-size: 14px;
+    }
+    .navbar-head {
+        height: 40px;
+    }
+
+}
+@media only screen and (max-width: 360px) {
+    .navbar-head ul li {
+        padding: 7px;
+    }
+    .navbar-head ul li a {
+        color: white;
+        font-size: 14px;
+    }
+    .navbar-head {
+        height: 40px;
+    }
+
+}
+@media only screen and (max-width: 320px) {
+    .navbar-head ul li {
+        padding: 7px;
+    }
+    .navbar-head ul li a {
+        color: white;
+        font-size: 13px;
+    }
+    .navbar-head {
+        height: 40px;
+    }
+
+}
+@media only screen and (max-width: 505px) {
+    .navbar-head ul li {
+        padding: 7px;
+    }
+    .navbar-head ul li a {
+        color: white;
+        font-size: 13px;
+    }
+    .navbar-head {
+        height: 40px;
+    }
+
+}
+@media only screen and (max-width: 281px) {
+    .navbar-head ul li {
+        padding: 7px;
+    }
+    .navbar-head ul li a {
+        color: white;
+        font-size: 10px;
+    }
+    .navbar-head {
+        height: 40px;
+    }
+
+}
+@media only screen and (max-width: 800px) {
+    .col-10{
+        width: 100%;
+    }
+    .navbar-head{
+        display: block;
+    }
+}
